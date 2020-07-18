@@ -6,8 +6,8 @@ import MapPage from "./Map/MapPage";
 const Routes = () => (
   <Router>
     <Switch>
-      <Route exact path="/" component={Home} />
-      <Route exact path="/map" component={MapPage} />
+      <Route exact path="/my-location/" component={Home} />
+      <Route exact path="/my-location/map" component={MapPage} />
     </Switch>
   </Router>
 );

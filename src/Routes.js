@@ -6,10 +6,10 @@ import MapPage from "./Map/MapPage";
 const Routes = () => (
   <Router>
     <Switch>
-      <Route exact path="/" component={Home} />
+      <Route exact path="https://marcelomartinsdev.github.io/my-location/" component={Home} />
     </Switch>
     <Switch>
-      <Route exact path="/map" component={MapPage} />
+      <Route exact path="https://marcelomartinsdev.github.io/my-location/map" component={MapPage} />
     </Switch>
   </Router>
 );

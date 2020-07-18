@@ -5,7 +5,7 @@ import "./Home.css";
 const Home = () => {
   return (
     <div className="page-content">
-      <Link to="/map">
+      <Link to="/my-location/map">
         <div class="btn btn-two">
           <span>FIND MY LOCATION</span>
         </div>

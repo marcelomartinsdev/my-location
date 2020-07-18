@@ -1,6 +1,12 @@
+@font-face {
+  font-family: "Minecraft", Roboto;
+  font-weight: 700;
+  src: url("../../public/Minecraft.ttf");
+}
+
 body {
   margin: 0;
-  font-family: "Minecraft", "Roboto";
+  font-family: "Minecraft", Roboto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: aquamarine;
